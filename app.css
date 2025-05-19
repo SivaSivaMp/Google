@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul,a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.icons{
+    font-size: 60px;
+    color: black;
+}
+.search-lab{
+    height: 20px;
+}
+.navbar-box1{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+.navbar-box2{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.user-icon{
+    height: 30px;
+}
+.google-logo{
+    height: 100px;
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    justify-content: center;
+    
+}
+.search-bar-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 50px;    
+    border-radius: 30px;
+    margin-top: 20px;
+    gap: 5px;
+    border: rgb(205, 199, 199) .3px solid;
+    
+
+    
+
+}
+.search-bar{
+    width: 70%;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+    
+    margin-left: 10px;
+    margin-right: 5px;
+   
+    
+}
+.search-bar-mainbox{
+    display: flex;
+    justify-content: center;
+}
+.border:hover{
+    border:transparent;
+}
+.shadow-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.button-style{
+    height: 40px;
+    margin-left: 10px;
+    width: 150px;
+    background-color: #F8F9FA;
+    border: none;
+    font-size: 14px;
+    
+}
+.Google-lang{
+    display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  
+  padding: 0; 
+  margin: 0;
+}
+.footer-panel{
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+.footer-panel-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 38px;
+    background-color: #F2F2F2;
+    border-bottom: 0.2px rgb(221, 218, 218) solid;
+
+}
+.footer-panel-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 38px;
+    background-color: #F2F2F2;
+    align-content: center;
+    justify-content: space-between;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.lats-panel{
+    display: flex;
+    gap: 20px;
+}
